@@ -6,7 +6,7 @@ namespace AdventOfCode2021
     {
         static void Main()
         {
-            var dayToRun = new Day02();
+            var dayToRun = new Day05();
             var answer = dayToRun.Run();
 
             Console.WriteLine($"Answer for {dayToRun.GetType().Name} is {answer}");
